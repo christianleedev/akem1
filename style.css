@@ -15,6 +15,10 @@
     background: #1e1e1e;
   }
   
+  a {
+    color: #7289DA;
+    text-decoration: none;
+  }
   .card-container {
     display: flex;
     flex-direction: row;
@@ -171,7 +175,39 @@
   .card-content .roles .roles-list .role .color {
     width: 11px;
     height: 11px;
-    background: red;
+    background: #EE82EE;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .card-content .roles .roles-list .role .color2 {
+    width: 11px;
+    height: 11px;
+    background: #FFC0CB;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .card-content .roles .roles-list .role .color3 {
+    width: 11px;
+    height: 11px;
+    background: #7289DA;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .card-content .roles .roles-list .role .color4 {
+    width: 11px;
+    height: 11px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .card-content .roles .roles-list .role .color5 {
+    width: 11px;
+    height: 11px;
+    background: #2E8B57;
     border-radius: 50%;
     margin-right: 5px;
   }
