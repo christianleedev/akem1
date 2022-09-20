@@ -1,52 +1,45 @@
 <html>
 <head>
    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
 </head>
-   <title>Profile Cards</title>
-<div class="card-container">
+   <title>s1eepy</title>
+<div class="card-container" id="cardcontainer">
   <div class="card">
     <div class="card-header">
       <div style="background: url('https://pfps.gg/assets/banners/7576-shinobu-banner.gif')" class="banner-image"></div>
       <div class="infos">
-        <div class="profil-logo-image">
+        <div class="profil-logo-image" id="pfp" onclick="showStuff('cardcontainer', 'tagcontainer')">
           <img src="src/pfp.jpg" />
         </div>
-        <div class="username">Akemi<span>#0425</span></div>
+        <div class="username">s1eepy<span>#0425</span></div>
         <hr />
       </div>
     </div>
     <div class="card-content">
       <div class="about-me">
         <div class="category-title">About Me</div>
-        <p>// click on my pfp for more info</p>
-        <p>// join my <a href="https://discord.gg">discord server</a></p>
+        <p>// socials + tags click on my pfp</p>
+        <p>// join my <a href="https://discord.gg/Afgpxyrabj" target="_blank">discord server</a></p>
       </div>
       <div class="roles">
         <div class="category-title">Roles</div>
         <div class="roles-list">
           <div class="role">
             <div class="color"></div>
-            administrator
+            web dev
           </div>
           <div class="role">
             <div class="color2"></div>
-            developer
+            22
           </div>
           <div class="role">
             <div class="color3"></div>
-            gamer
+            he/him
           </div>
           <div class="role">
             <div class="color5"></div>
             horror fan
-          </div>
-          <div class="role">
-            <div class="color4"></div>
-            21
-          </div>
-          <div class="role">
-            <div class="color4"></div>
-            he/him
           </div>
         </div>
       </div>
@@ -56,7 +49,24 @@
       </div>
     </div>
     <div class="card-footer">
-      <input type="text" placeholder="Message @Akemi" />
+      <input type="text" placeholder="Message @s1eepy" />
     </div>
   </div>
+</div>
+      <div class="tag-container" id="tagcontainer">
+        <div class="tags-block">
+            <br>
+            <p style="float: right; margin-right: 20px; cursor: pointer;" onclick="hideStuff('cardcontainer', 'tagcontainer')">x</p>
+            <h2>gamertags</h2>
+            <p>valorant // <a href="" target="_blank" id="val">s1eepy#val</a></p>
+            <p>steam // <a href="" target="_blank" id="steam">click me</a></p>
+            <br>
+            <br>
+            <h2>socials</h2>
+            <p>instagram // <a href="" target="_blank" id="ig">@k1ngleehan</a></p>
+            <p>twitter // <a href="" target="_blank" id="twitter">@s1eepyval</a></p>
+            <p>twitch // <a href="" target="_blank" id="twitch">@s1eepy_val</a></p>
+            <br>
+        </div>
+    </div>
   </html>
